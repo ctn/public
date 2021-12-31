@@ -32,6 +32,6 @@ StudentModeler - Student : produces >
 
 allowmixing
 Actor User
-User - Teacher : produces >
+Teacher - User : < produces
 @enduml
 ```
