@@ -1,7 +1,7 @@
 ```
 @startuml
-Model --> interface Modelable
-class Model
+interface Modelable
+Model --> Modelable
 class Modeler
 @enduml
 ```
