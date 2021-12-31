@@ -32,7 +32,7 @@ class AppModel #lightgreen {
 ** Raspbian with a very long name
 *** <s>Raspmbc</s> => OSMC
 *** <s>Raspyfi</s> => Volumio
-@startwbs
+@endwbs
 ```
 
 ### Model–System (Data Scientist–Software Engineer) Collaboration
