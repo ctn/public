@@ -9,7 +9,7 @@ Actor "Software Engineer" as SWE
 Actor "Data Scientist" as DS
 SWE ..> App : maintains
 DS ..> Model : maintains
-App ..> "AppModel" : uses
+App <.. AppModel : uses
 AppModel ..> Model
 @enduml
 ```
