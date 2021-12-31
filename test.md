@@ -2,8 +2,6 @@
 ```
 @startuml
 Model <|-- PredictiveModel <|-- MLModel
-PredictiveModel <|-- BooleanModel
-PredictiveModel <|-- RuleBasedModel
 @enduml
 ```
 
