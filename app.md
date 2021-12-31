@@ -1,5 +1,20 @@
 *Note: to view these diagrams, install [this Chrome plugin](https://chrome.google.com/webstore/detail/plantuml-visualizer/ffaloebcmkogfdkemcekamlmfkkmgkcf).*
 
+```
+@startuml
+allowmixing
+
+ 
+class App {
+  in apps/app.py
+}
+
+class AppModel #lightgreen {
+  in models/app_model.py
+}
+@enduml
+```
+
 ### App directory layout
 ```
 
@@ -58,19 +73,5 @@ end note
 note right of Model
   Can be any class as determined by DS
 end note
-@enduml
-
-
-@startuml
-allowmixing
-
- 
-class App {
-  in apps/app.py
-}
-
-class AppModel #lightgreen {
-  in models/app_model.py
-}
 @enduml
 ```
