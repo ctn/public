@@ -12,6 +12,8 @@ Actor "Data Scientist" as DS
 SWE ..> App : maintains
 DS ..> Model : maintains
 AppModel ..> Model
+
+together { App AppModel Model }
 @enduml
 ```
 
