@@ -1,7 +1,7 @@
 ```
 @startuml
 class A {
-    -int privateField
+-int privateField
     +String publicField
     -void privateMethod()
     +int publicMethod()
