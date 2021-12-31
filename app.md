@@ -7,7 +7,7 @@ allowmixing
 class App
 App ..> AppModel : uses
 AppModel ..> Model : embeds
-AppModeL : process()
+AppModel : process()
 AppModel : predict()
 
 Actor "Software Engineer" as SWE
