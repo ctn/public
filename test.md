@@ -6,6 +6,7 @@ Model <-- PredictiveModel
 PredictiveModel <-- MLModel
 PredictiveModel <-- BooleanModel
 PredictiveModel <-- RuleBasedModel
+RuleBasedModel <-- FuzzyLogicModel
 @enduml
 ```
 
