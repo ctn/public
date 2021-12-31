@@ -1,4 +1,4 @@
-"""
+```
 @startuml
 Bob->Alice : Hello!
 @enduml
