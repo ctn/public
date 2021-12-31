@@ -1,6 +1,4 @@
-@startuml
-class A {
-    -int privateField
+@startuml class A { -int privateField
     +String publicField
     -void privateMethod()
     +int publicMethod()
