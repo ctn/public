@@ -2,18 +2,7 @@
 
 ### App directory layout
 ```
-@startwbs
-* <project>
-** apps
-*** sample_app.py
-*** ui
-*** api
-*** dataeng
-*** modeling
-** models
-*** sample_model.py
-*** app_model.py
-@endwbs
+
 
 @startmindmap
 * Debian
