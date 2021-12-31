@@ -14,7 +14,7 @@ DS ..> Model : maintains
 AppModel ..> Model
 
 together { 
-  class App 
+  App 
   class AppModel 
   class Model 
 }
