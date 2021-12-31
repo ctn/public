@@ -77,7 +77,6 @@ end note
 ```
 
 
-# What
 ```
 @startuml
 allowmixing
