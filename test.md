@@ -1,12 +1,18 @@
 ### Model Hiearchy
 ```
 @startuml
-class Model 
+class Model
+
 Model <-- PredictiveModel
 PredictiveModel <-- MLModel
 PredictiveModel <-- BooleanModel
 PredictiveModel <-- RuleBasedModel
 RuleBasedModel <-- FuzzyLogicModel
+
+interface Modelable
+Modeler - Modelable : produces >
+Model ..> Modelable : implements
+
 @enduml
 ```
 
