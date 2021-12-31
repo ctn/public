@@ -14,9 +14,9 @@ DS ..> Model : maintains
 AppModel ..> Model
 
 together { 
-App 
-AppModel 
-Model 
+  class App 
+  class AppModel 
+  class Model 
 }
 @enduml
 ```
