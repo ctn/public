@@ -28,11 +28,11 @@ Oracle o-- Ensemble
 Ensemble <.. Teacher
 Ensemble <.. Student
 
+EnsembleModeler - Ensemble : produces >
+
 allowmixing
 Actor User
 User - Teacher : produces >
-
-Ensemble - EnsembleModeler : < produces
 Student - StudentModeler : < produces
 
 @enduml
