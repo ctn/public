@@ -4,7 +4,8 @@
 ```
 @startuml
 class App
-App ..> AppModel : uses
+App ..> "AppModel" : uses
+AppModel ..> Model
 @enduml
 ```
 
