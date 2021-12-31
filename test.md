@@ -1,4 +1,11 @@
-## General Design
+### Model Hiearchy
+@startuml
+Model <|-- PredictiveModel <|-- MLModel
+PredictiveModel <|-- BooleanModel
+PredictiveModel <|-- RuleBasedModel
+@enduml
+
+### Modelable
 ```
 @startuml
 interface Modelable
@@ -6,8 +13,6 @@ Modeler - Modelable : produces >
 Model ..> Modelable : implements
 @enduml
 ```
-
-### Examples
 
 ```
 @startuml
