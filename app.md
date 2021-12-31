@@ -5,7 +5,7 @@
 @startuml
 allowmixing
 class App
-App <.. AppModel : uses
+App ..> AppModel : uses
 AppModel ..> Model : calls
 
 Actor "Software Engineer" as SWE
