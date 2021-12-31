@@ -1,3 +1,7 @@
+@startuml
+Bob->Alice : Hello!
+@enduml
+
 ```mermaid
 graph TD
 A[Hard] -->|Text| B(Round)
