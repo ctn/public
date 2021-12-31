@@ -2,7 +2,7 @@
 ```
 @startuml
 class Model
-PredictiveModel extends Model
+PredictiveModel <-- Model
 PredictiveModel <-- MLModel
 PredictiveModel <-- BooleanModel
 PredictiveModel <-- RuleBasedModel
