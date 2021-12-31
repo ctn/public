@@ -1,5 +1,7 @@
 ```
 @startuml
-Bob->Alice : Hello!
+interface Modelable
+class Model
+class Modeler
 @enduml
 ```
