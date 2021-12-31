@@ -29,7 +29,7 @@ Ensemble <.. Teacher
 Ensemble <.. Student
 EnsembleModeler - Ensemble : produces >
 StudentModeler - Student : produces >
-user User
+Actor User
 User - Teacher : produces >
 @enduml
 ```
