@@ -10,11 +10,11 @@ App <.. AppModel : uses
 Actor "Software Engineer" as SWE
 Actor "Data Scientist" as DS
 SWE ..> App : maintains
-DS ..> Model : maintains
+Model <.. DS : maintains
 AppModel ..> Model
 
 together { 
-  App 
+  class App 
   class AppModel 
   class Model 
 }
