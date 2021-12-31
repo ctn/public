@@ -1,7 +1,8 @@
 ### Model Hiearchy
 ```
 @startuml
-class Model <-- PredictiveModel
+class Model 
+Model <-- PredictiveModel
 PredictiveModel <-- MLModel
 PredictiveModel <-- BooleanModel
 PredictiveModel <-- RuleBasedModel
