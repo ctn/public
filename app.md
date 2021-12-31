@@ -13,7 +13,11 @@ SWE ..> App : maintains
 DS ..> Model : maintains
 AppModel ..> Model
 
-together { App AppModel Model }
+together { 
+App 
+AppModel 
+Model 
+}
 @enduml
 ```
 
