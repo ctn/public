@@ -27,11 +27,13 @@ MLModel <|-- Oracle
 Oracle o-- Ensemble
 Ensemble <.. Teacher
 Ensemble <.. Student
-EnsembleModeler - Ensemble : produces >
-StudentModeler - Student : produces >
 
 allowmixing
 Actor User
 Teacher - User : < produces
+
+Ensemble - EnsembleModeler : < produces
+Student - StudentModeler : < produces
+
 @enduml
 ```
