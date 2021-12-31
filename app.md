@@ -74,10 +74,7 @@ note right of Model
   Can be any class as determined by DS
 end note
 @enduml
-```
 
-
-```
 @startuml
 allowmixing
 
