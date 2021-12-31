@@ -75,3 +75,20 @@ note right of Model
 end note
 @enduml
 ```
+
+
+# What
+```
+@startuml
+allowmixing
+
+ 
+class App {
+  in apps/app.py
+}
+
+class AppModel #lightgreen {
+  in models/app_model.py
+}
+@enduml
+```
