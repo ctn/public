@@ -15,7 +15,7 @@ RuleBasedModel <-- FuzzyLogicModel
 @startuml
 interface Modelable
 Modeler - Modelable : produces >
-Model ..> Modelable : implements
+Modelable <.. Model : implements
 @enduml
 ```
 
