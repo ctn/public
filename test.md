@@ -29,6 +29,8 @@ Ensemble <.. Teacher
 Ensemble <.. Student
 EnsembleModeler - Ensemble : produces >
 StudentModeler - Student : produces >
+
+allowmixing
 Actor User
 User - Teacher : produces >
 @enduml
