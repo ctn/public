@@ -27,5 +27,7 @@ MLModel <-- Oracle
 Oracle o-- Teacher
 Oracle o-- Student
 Oracle o-- Ensemble
+Teacher ..> Ensemble
+Student ..> Ensemble
 @enduml
 ```
