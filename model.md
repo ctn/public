@@ -1,3 +1,5 @@
+*Note: to view these diagrams, install [this Chrome plugin](https://chrome.google.com/webstore/detail/plantuml-visualizer/ffaloebcmkogfdkemcekamlmfkkmgkcf).*
+
 ### Model Hiearchy
 ```
 @startuml
