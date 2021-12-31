@@ -1,4 +1,3 @@
-"""
 ```
 @startuml
 class A {
@@ -18,4 +17,3 @@ A <|-- B
 B --> C
 @enduml
 ```
-"""
