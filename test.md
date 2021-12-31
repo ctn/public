@@ -24,8 +24,6 @@ Model ..> Modelable : implements
 @startuml
 class Oracle
 MLModel <-- Oracle
-Oracle o-- Teacher
-Oracle o-- Student
 Oracle o-- Ensemble
 Teacher ..> Ensemble
 Student ..> Ensemble
