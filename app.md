@@ -1,6 +1,7 @@
 *Note: to view these diagrams, install [this Chrome plugin](https://chrome.google.com/webstore/detail/plantuml-visualizer/ffaloebcmkogfdkemcekamlmfkkmgkcf).*
 
 ### App directory layout
+```
 @startwbs
 * <project>
 ** apps
@@ -13,6 +14,7 @@
 *** sample_model.py
 *** app_model.py
 @endwbs
+```
 
 ### Model–System (Data Scientist–Software Engineer) Collaboration
 ```
