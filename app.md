@@ -6,7 +6,7 @@
 allowmixing
 class App
 App ..> AppModel : uses
-AppModel ..> Model : calls
+AppModel ..> Model : embeds
 
 Actor "Software Engineer" as SWE
 Actor "Data Scientist" as DS
