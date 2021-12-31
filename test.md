@@ -29,5 +29,7 @@ Ensemble <.. Teacher
 Ensemble <.. Student
 Oracle o-- Teacher
 Oracle o-- Student
+EnsembleModeler - Ensemble : produces >
+StudentModeler - Student : produces >
 @enduml
 ```
