@@ -25,7 +25,7 @@ Model ..> Modelable : implements
 class Oracle
 MLModel <-- Oracle
 Oracle o-- Ensemble
-Teacher ..> Ensemble
-Student ..> Ensemble
+Ensemble <.. Teacher
+Ensemble <.. Student
 @enduml
 ```
