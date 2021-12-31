@@ -4,6 +4,7 @@
 ```
 @startuml
 allowmixing
+class App #red
 class AppModel #red-green
 App ..> AppModel : uses
 AppModel ..> Model : embeds
