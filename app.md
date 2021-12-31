@@ -6,7 +6,7 @@
 allowmixing
 class App
 Actor SWE
-Actor Data Scientist
+Actor "Data Scientist"
 App ..> "AppModel" : uses
 AppModel ..> Model
 @enduml
