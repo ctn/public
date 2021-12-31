@@ -19,7 +19,7 @@ class AppModel #lightgreen {
 ```
 
 
-@startmindmap
+@startwbs
 * Debian
 ** Ubuntu
 *** Linux Mint
@@ -32,7 +32,7 @@ class AppModel #lightgreen {
 ** Raspbian with a very long name
 *** <s>Raspmbc</s> => OSMC
 *** <s>Raspyfi</s> => Volumio
-@endmindmap
+@startwbs
 ```
 
 ### Model–System (Data Scientist–Software Engineer) Collaboration
