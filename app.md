@@ -7,6 +7,7 @@ allowmixing
 class App
 Actor "Software Engineer" as SWE
 Actor "Data Scientist" as DS
+DS ..> App : maintains
 App ..> "AppModel" : uses
 AppModel ..> Model
 @enduml
