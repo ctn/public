@@ -2,11 +2,11 @@
 ```
 @startuml
 class Model
-PredictiveModel <-- Model
-PredictiveModel <-- MLModel
-PredictiveModel <-- BooleanModel
-PredictiveModel <-- RuleBasedModel
-RuleBasedModel <-- FuzzyLogicModel
+PredictiveModel <|-- Model
+PredictiveModel <|-- MLModel
+PredictiveModel <|-- BooleanModel
+PredictiveModel <|-- RuleBasedModel
+RuleBasedModel <|-- FuzzyLogicModel
 @enduml
 ```
 
@@ -14,7 +14,7 @@ RuleBasedModel <-- FuzzyLogicModel
 ```
 @startuml
 interface Modelable
-Modelable <.. Model : implements
+Modelable <|.. Model : implements
 Modeler - Modelable : produces >
 @enduml
 ```
@@ -23,7 +23,7 @@ Modeler - Modelable : produces >
 ```
 @startuml
 class Oracle
-MLModel <-- Oracle
+MLModel <|-- Oracle
 Oracle o-- Ensemble
 Ensemble <.. Teacher
 Ensemble <.. Student
