@@ -30,7 +30,7 @@ Ensemble <.. Student
 
 allowmixing
 Actor User
-Teacher - User : < produces
+User - Teacher : produces >
 
 Ensemble - EnsembleModeler : < produces
 Student - StudentModeler : < produces
