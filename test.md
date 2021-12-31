@@ -1,3 +1,4 @@
+## General Design
 ```
 @startuml
 interface Modelable
@@ -6,7 +7,7 @@ Model ..> Modelable : implements
 @enduml
 ```
 
-Examples
+### Examples
 
 ```
 @startuml
