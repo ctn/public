@@ -6,12 +6,12 @@
 allowmixing
 class App
 App <.. AppModel : uses
+AppModel ..> Model : calls
 
 Actor "Software Engineer" as SWE
 Actor "Data Scientist" as DS
 SWE ..> App : maintains
 Model <.. DS : maintains
-AppModel ..> Model
 
 together { 
   class App 
