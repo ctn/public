@@ -1,10 +1,10 @@
 ### Model Hiearchy
 ```
 @startuml
-Model <|-- PredictiveModel
-PredictiveModel <|-- MLModel
-PredictiveModel <|-- BooleanModel
-PredictiveModel <|-- RuleBasedModel
+Model <-- PredictiveModel
+PredictiveModel <-- MLModel
+PredictiveModel <-- BooleanModel
+PredictiveModel <-- RuleBasedModel
 @enduml
 ```
 
