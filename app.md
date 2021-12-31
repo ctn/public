@@ -5,8 +5,8 @@
 @startuml
 allowmixing
 class App
-Actor SWE
-Actor "Data Scientist"
+Actor "Software Engineer" as SWE
+Actor "Data Scientist" as DS
 App ..> "AppModel" : uses
 AppModel ..> Model
 @enduml
