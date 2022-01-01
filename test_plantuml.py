@@ -1,4 +1,4 @@
-```
+'''
 @startuml
 class A {
 -int privateField
@@ -16,4 +16,4 @@ class C {
 A <|-- B
 B --> C
 @enduml
-```
+'''
